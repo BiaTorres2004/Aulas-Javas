@@ -1,4 +1,4 @@
-
+//*Essa é classe mãe*//
 public class Veiculo {
 	
 	public String getMarca() {
