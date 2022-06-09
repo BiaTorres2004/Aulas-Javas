@@ -1,0 +1,2 @@
+Pessoa [nome=sasa, idade=17, endereco=Cadastro [bairro=sdfgh, rua=dfghj, n=14], sexo=FEMININO]
+Pessoa [nome=lii, idade=15, endereco=Cadastro [bairro=dfghj, rua=dfghj, n=12], sexo=MASCULINO]
