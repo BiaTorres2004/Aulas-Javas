@@ -1,3 +1,4 @@
+/*O que são classes abstratas? São classes que não podem ser intanciada apenas herdada, ela funciona como uma espécie de classe especial não pode ter um objeto criado na sua instanciação*/
 
 public abstract class Item {
 
