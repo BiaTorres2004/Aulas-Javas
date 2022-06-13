@@ -8,6 +8,7 @@ public class Carro extends Veiculo {
 	@Override
 	public void imprimir() {
 		super.imprimir();
+/*Verdadeirou ou falso*/ 
 		System.out.println("Tem 4 portas " + quatroPortas);
 	}
 
