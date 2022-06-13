@@ -1,4 +1,4 @@
-/*Classe filha*/ 
+
 public class LeiteQuente extends Bebida{
 
 	public LeiteQuente () {
