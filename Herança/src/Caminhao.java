@@ -1,3 +1,5 @@
+/*Classe filha*/
+
 public class Caminhao extends Veiculo{
 
 	@Override
