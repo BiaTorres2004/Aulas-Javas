@@ -4,12 +4,16 @@ public class Pessoa {
 	int numFigurinhas;
 	
 	void receber(int numFigurinhas) {
+/*Aqui ela vai receber o numero de figurinhas*/ 
+/*Metodo de recebe*/ 
 		this.numFigurinhas = numFigurinhas;
 				
 }
-  
-	 void dar () {
-		 
+
+/*Já aqui ela vai da as figurinhas*/ 
+/*Metodo que da*/ 
+         void dar (int numFigurinhas) {
+		this.numFigurinhas = numFigurinhas 
 	 }
 	 
 	 
