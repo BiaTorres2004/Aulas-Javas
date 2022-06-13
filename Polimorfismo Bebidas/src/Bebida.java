@@ -1,14 +1,18 @@
 public class Bebida {
       private String nome; 
       private boolean aquecer;
+/*Construtor da bebida*/ 
 	public Bebida(String nome, boolean aquecer) {
 		super();
 		this.nome = nome;
 		this.aquecer = aquecer;
 	}
+/*Metodo publico*/ 
 	public void preparar() {
 		System.out.println("Pegando o copo");
 	}
+
+/*Getters*/ 
 	public String getNome() {
 		return nome;
 	}
