@@ -1,8 +1,9 @@
 
-public class Aplicação {
+public class AplicaÃ§Ã£o {
 
 	public static void main(String[] args) {
 		
+/*Construtor que procura o veiculo*/ 
 		Veiculo veiculo = new Veiculo();
 		
 		veiculo.setMarca("Honda");
@@ -17,7 +18,8 @@ public class Aplicação {
 		carro.setMarca("Honda");
 		carro.setModelo("Fit");
 		carro.setAno(2014);
-		carro.setQuatroPortas(true);
+/*Verifica se ele tem quarto portas*/ 
+		carro.setQuatroPortas(true); 
         System.out.println();
         carro.imprimir();
         carro.buzinar();
