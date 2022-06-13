@@ -9,18 +9,18 @@ public class Calculadora {
 		double resulSu;
 		double resulM; 
 		double resulD;
-		
+/*Aqui ela vai resolver o problema matematico da soma, e vai guarda na variavel resultado.Esse processo se repete nas outras contas tamb√©m*/ 	
 		resulS = n1 + n2;
-		System.out.println("O resultado da soma È " + resulS);
+		System.out.println("O resultado da soma √© " + resulS);
 		
 		resulSu = n1 - n2; 
-		System.out.println("O resultado da subtraÁ„o È " + resulSu);
+		System.out.println("O resultado da subtra√ß√£o √© " + resulSu);
 		
 	    resulM = n1 * n2; 
-	    System.out.println("O resultado da multipliÁ„o È " + resulM);
+	    System.out.println("O resultado da multipli√ß√£o √© " + resulM);
 	    
 	    resulD = n1 / n2;
-	    System.out.println("O resultado da divis„o È " + resulD);
+	    System.out.println("O resultado da divis√£o √© " + resulD);
 	
 	
 	
