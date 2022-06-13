@@ -1,8 +1,10 @@
+/*classe filha*/ 
 
 public class Carro extends Veiculo {
    
 	private boolean quatroPortas;
 
+/*Aqui puxara a informação da classe mãe*/
 	@Override
 	public void imprimir() {
 		super.imprimir();
@@ -14,6 +16,7 @@ public class Carro extends Veiculo {
 		return quatroPortas; 
 	}
 
+/*Onde ela vai ser guardada*/
 	@Override
 	protected void setQuatroPortas(boolean quatroPortas) {
 		this.quatroPortas = quatroPortas;
