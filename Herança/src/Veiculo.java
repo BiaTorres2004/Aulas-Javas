@@ -1,6 +1,8 @@
-//*Essa é classe mãe*//
+/*O que é herança: São classes que que herdam atributos é metódos da classe mãe*/
+/*Essa aqui é classe mãe*/
+
 public class Veiculo {
-	
+    
 	public String getMarca() {
 		return marca;
 	}
@@ -19,6 +21,8 @@ public class Veiculo {
 	public void setAno(int ano) {
 		this.ano = ano;
 	}
+
+/*O protected NÃO pode ser acessado fora da classe*/
 	protected String marca; 
 	protected String modelo; 
 	protected int ano; 
@@ -26,6 +30,7 @@ public class Veiculo {
 	public void buzinar() {
         System.out.println("BI BI");
 }
+/*Informações do veiculo que vão aparecer*/
 	public void imprimir() {
 		System.out.println("Marca:" + marca);
 		System.out.println("Modelo:" + modelo);
