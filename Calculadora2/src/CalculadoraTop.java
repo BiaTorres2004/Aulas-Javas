@@ -1,3 +1,4 @@
+/*Permite que o usu√°rio digite suas informa√ß√µes*/
 import java.util.Scanner;
 
 public class CalculadoraTop {
@@ -11,9 +12,10 @@ public class CalculadoraTop {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Digite a operaÁ„o desejada (+, -, *, /): ");
+		System.out.println("Digite a opera√ß√£o desejada (+, -, *, /): ");
 		op = entrada.nextLine();
 		
+/*A string vai para o interior*/ 
 		System.out.println("Digite um valor: ");
 		n1 = Integer.parseInt(entrada.nextLine());
 		
@@ -22,30 +24,30 @@ public class CalculadoraTop {
 		
 
 		if(op.equals("+")) {
-			System.out.println("O resultado da soma È " +(n1 + n2));
+			System.out.println("O resultado da soma √© " +(n1 + n2));
 			control++;
 			
 		}
 		
 		if(op.equals("-")) {
-			System.out.println("O resultado da subtraÁ„o È " +(n1 - n2));
+			System.out.println("O resultado da subtra√ß√£o √© " +(n1 - n2));
 			control++;
 			
 		}
 		
 		if(op.equals("*")) {
-			System.out.println("O resultado da multiplicaÁ„o È " +(n1 * n2));
+			System.out.println("O resultado da multiplica√ß√£o √© " +(n1 * n2));
 			control++;
 		
 		}
 		
 		if(op.equals("/")) {
-			System.out.println("O resultado da divis„o È " +(n1 / n2));
+			System.out.println("O resultado da divis√£o √© " +(n1 / n2));
 			control++;	
 		
 		}
 		if(control == 0) {
-			System.out.println("OperaÁ„o invalida, tente novamente!");
+			System.out.println("Opera√ß√£o invalida, tente novamente!");
 		}
 		
 		
